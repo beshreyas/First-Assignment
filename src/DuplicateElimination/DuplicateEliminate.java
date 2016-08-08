@@ -15,6 +15,7 @@ public class DuplicateEliminate {
 			
 			if(c>9&&c<101)
 			{
+				b=0;
 				for(int j=0;j<i;j++)
 				{
 					if(a[j]==c)
@@ -30,11 +31,12 @@ public class DuplicateEliminate {
 			
 				if(b > 0)
 				{
+					
 					continue;
 				}
 				else
 				{
-					a[i]=c;
+					a[counter]=c;
 					counter++;
 				
 					for(int k=0;k<counter;k++)
@@ -42,6 +44,12 @@ public class DuplicateEliminate {
 						System.out.println(a[k]);
 					}
 				}
+			}
+			
+			else
+			{
+				System.out.println("Enter a number between 1 and 100");
+				i=i-1;
 			}
 		}
 
