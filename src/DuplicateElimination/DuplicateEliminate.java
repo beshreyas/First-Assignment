@@ -34,8 +34,8 @@ public class DuplicateEliminate {
 			{
 				a[i]=c;
 				counter++;
-				for(int j=0;j<counter;j++)
-				System.out.println(a[j]);
+				for(int k=0;k<counter;k++)
+				System.out.println(a[k]);
 			}
 			}
 			else
