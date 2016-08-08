@@ -41,6 +41,8 @@ public class DuplicateEliminate {
 			else
 			{
 				System.out.println("Enter a number between 10 and 100 :");
+				i=i-1;
+				
 			}
 			}
 		}
